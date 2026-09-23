@@ -1,0 +1,67 @@
+{
+  "name": "fca-azadx69x",
+  "version": "4.0.0",
+  "description": "Advanced Facebook Chat API for Node.js - by Azadx69x",
+  "main": "index.js",
+  "author": "Azadx69x",
+  "license": "MIT",
+  "keywords": [
+    "facebook",
+    "chat",
+    "api",
+    "fca",
+    "azadx69x",
+    "messenger",
+    "bot"
+  ],
+  "files": [
+    "index.js",
+    "utils.js",
+    "antiSuspension.js",
+    "checkpoint.js",
+    "session.js",
+    "storage.js",
+    "src/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azadx69x/fca-azadx69x.git"
+  },
+  "bugs": {
+    "url": "https://github.com/azadx69x/fca-azadx69x/issues"
+  },
+  "homepage": "https://github.com/azadx69x/fca-azadx69x#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint:fix": "echo \"No linter configured\" && exit 0",
+    "build": "echo \"No build step defined\" && exit 0"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "bcrypt": "^5.1.1",
+    "chalk": "^4.1.2",
+    "cheerio": "^1.0.0-rc.12",
+    "crypto-js": "^4.2.0",
+    "debug": "^4.3.4",
+    "dotenv": "^16.3.1",
+    "form-data": "^4.0.0",
+    "gradient-string": "^2.0.2",
+    "deepdash": "^5.3.9",
+    "lodash": "^4.17.21",
+    "https-proxy-agent": "^7.0.2",
+    "jsonwebtoken": "^9.0.2",
+    "mqtt": "^4.3.7",
+    "node-cron": "^3.0.2",
+    "proxy-agent": "^6.3.1",
+    "qs": "^6.11.2",
+    "socks-proxy-agent": "^8.0.2",
+    "tough-cookie": "^4.1.3",
+    "uuid": "^9.0.1",
+    "winston": "^3.11.0",
+    "ws": "^8.13.0"
+  }
+}
